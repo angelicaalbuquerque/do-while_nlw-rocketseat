@@ -1,6 +1,6 @@
-<!-- <div align="center">
-    <img src=".github\logo-8257e5.png" width="300px"/>
-</div> -->
+<div align="center">
+    <img src=".github\Logo DoWhile - 2021.png" width="300px"/>
+</div>
 
 <h2 align="center">
    Next Level Week Heat: Do While | <img alt="badge rocketseat" align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/rocketseat.svg">
@@ -186,9 +186,9 @@ A Milha Extra: Na quinta e última aula do NLW #2, vamos mostrar como você pode
 
 ## 💻 Projeto
 
-<!-- <div align="center">
-    <img src=".github\proffy.png" width="100%"/>
-</div> -->
+<div align="center">
+    <img src=".github\[NLW Heat - Impulse DoWhile2021.png" width="100%"/>
+</div>
 
 Como forma de aquecimento para o evento _[Do While 2021](https://dowhile.io/)_, produzido pela própria Rocketseat para oferecer palestras, painéis, talks, keynotes e workshops para a comunidade de tecnologia, este projeto é um mural de depoimentos/expectativas sobre o evento e utilizado, de fato, no mesmo.
 
@@ -210,7 +210,7 @@ Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto Web através [deste link](#) e do projeto Mobile [aqui](#). Ambos estão no [Figma](http://figma.com/).
+Você pode visualizar o layout do projetoatravés [deste link](https://www.figma.com/community/file/1031699316177416916), no [Figma](http://figma.com/).
 
 ## 🧭 Como rodar o projeto
 
@@ -290,8 +290,6 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 ``` -->
 
 ## 🚀 Tecnologias
-
-Em breve.
 
 O projeto foi desenvolvido com as seguintes tecnologias:
 
