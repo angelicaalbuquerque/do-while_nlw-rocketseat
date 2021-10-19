@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2017", //alterado de es5
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false, //não precisamos para usar variáveis que estamos utilizando ou pontos do código que já tenham algum erro na aplicação, pois o TS já fará isso
+    "skipLibCheck": true
+  }
+}
