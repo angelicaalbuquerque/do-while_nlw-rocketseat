@@ -3,7 +3,7 @@
 </div>
 
 <h2 align="center">
-   Next Level Week Heat: Do While | <img alt="badge rocketseat" align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/rocketseat.svg">
+   Next Level Week Heat - Trilha Impulse | <img alt="badge rocketseat" align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/rocketseat.svg">
 </h2>
 
 <p align="center">
@@ -65,45 +65,28 @@ Nessa edição, feita entre os dias 18 e 24 de outubro de 2021, desenvolvemos 
 
 ### 📚 Grade do curso
 
-Em breve.
-
-<!--
 <details>
-  <summary>Aula 01 | ReactJS e estrutura Web</summary>
+  <summary>Stage 1</summary>
 
-Acelerando a sua Evolução: Nessa primeira aula do NLW #2, você vai conhecer o método que vai acelerar a sua evolução em direção aos seus maiores objetivos como programador. Entraremos em detalhes, conhecendo cada pilar desse método e como você pode utiliza-lo para ir direto ao ponto, na direção certa.
+Nessa aula criaremos o backend da aplicação utlizando NodeJS. Nesse projeto iremos utilizar Typescript, que auxilia no aumento da produtividade em desenvolvimento; vamos utilizar o Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
 
-- Apresentação do projeto;
-- Ambiente de desenvolvimento;
-- Conceitos do ReactJS;
-  - Interfaces
-  - Construção de SPAs
-  - React/ ReactJS / React Native / ReactVR / ReactTV...
-- Criação do projeto;
-- Limpeza de estrutura;
-- Explicação de conceitos;
-  - index.html e div#root
-  - JSX
-  - Componentes
-  - Propriedade
-  - Estado
-- Criação de estilos globais;
-- Criação da estrutura da landing page;
-- Estilização da landing page;
-- Configuração de navegação do app;
-- Estruturação de listagem de professores;
-- Estilização da listagem de professores;
-- Criação de componentes comuns;
-- Estruturação da página de cadastro;
-- Estilização da página de cadastro;
-- Preparação de cadastro de horários.
+- Conteúdo técnico - construção do projeto:
+  - Criar projeto
+  - Instalar Express, Prisma, Typescript
+  - Configurar Github OAuth
+  - Criar rota login Github
+  - Autenticação usuario recebendo o código
+  - Cadastro de mensagem
+  - Configuração websocket
+  - Retornar 3 últimas mensagens
+  - Criar profile do usuário
 
-O foco foi a criação e estilização da estrutura do site.
+O foco foi a criação do backend usando o NodeJS.
 
 </details>
-
+<!--
 <details>
-  <summary>Aula 02 | Back-end com Node.js</summary>
+  <summary>Stage 2</summary>
 
 Olhando as oportunidades: No segundo dia do NLW #2, você vai descobrir como acessar as melhores oportunidades no mercado, que na maioria das vezes não são divulgadas.
 
@@ -129,7 +112,7 @@ Aprendemos a utilizar queries complexas no banco de dados; trabalhamos com trans
 </details>
 
 <details>
-  <summary>Aula 03 | Finalizando o Front-End</summary>
+  <summary>Stage 3</summary>
 
 A Escolha da Stack: Qual a melhor tecnologia? É sobre isso que vamos falar no terceiro dia do NLW #2. Vamos apresentar os critérios de avaliação para decidir quais tecnologias fazem sentido para você, dado o seu momento atual, o seu contexto e os seus objetivos. Além disso, você entender por qual razão utilizamos a nossa stack e como ela pode multiplicar as oportunidades de uma forma enxuta sem perder o foco.
 
@@ -144,7 +127,7 @@ A Escolha da Stack: Qual a melhor tecnologia? É sobre isso que vamos falar no t
 </details>
 
 <details>
-  <summary>Aula 04 | Estruturando o app Mobile</summary>
+  <summary>Stage 4</summary>
 
 Até 2 Anos em 2 Meses: O que você acha de evoluir em 2 meses o que muitos devs levam 2 anos? No quarto dia do NLW #2, vamos entender o problema que desacelera a evolução de muitos devs e as principais dificuldades que atrapalham a evolução. Você vai ver como evitar esses problemas e acelerar na direção certa.
 
@@ -165,7 +148,7 @@ Até 2 Anos em 2 Meses: O que você acha de evoluir em 2 meses o que muitos devs
 </details>
 
 <details>
-  <summary>Aula 05 | Finalizando o app Mobile</summary>
+  <summary>Stage 5</summary>
 
 A Milha Extra: Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se destacar, andando aquela milha extra. Vamos dar alguns sugestões práticas de como você pode fazer isso e aumentar incrivelmente os seus resultados.
 
@@ -194,7 +177,7 @@ Como forma de aquecimento para o evento _[Do While 2021](https://dowhile.io/)_, 
 
 Consiste-se em uma aplicação utilizando várias tecnologias, onde o login é feito com Github para que o usuário consiga deixar suas mensagens. Conforme as mensagens são adicionadas, em tempo real elas aparecem no mural.
 
-Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem já desenvolveu aplicações para web. Essa trilha foi guiada pelo instrutor Diego Fernandes, CTO da Rocketseat.
+Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem já desenvolveu aplicações para web. Essa trilha foi guiada pela instrutora Daniele Leão.
 
 <!-- ### Web
 
