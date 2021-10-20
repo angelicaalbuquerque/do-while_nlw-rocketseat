@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": false, //não precisamos para usar variáveis que estamos utilizando ou pontos do código que já tenham algum erro na aplicação, pois o TS já fará isso
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "typeRoots": ["./src/@types", "node_modules/@types"]
   }
 }
