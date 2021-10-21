@@ -1,10 +1,10 @@
-## Stage 1
+# Stage 1
 
 ### Tecnologias e bibliotecas usadas no servidor
 
 - yarn / express / node / typescript / ts-node-dev / prisma / SQlite / axios / Insomnia / Socket.IO
 
-### **Parte 1: Criando o backend**
+## **Parte 1: Criando o backend**
 
 Dentro da pasta escolhida como backend, o primeiro comando será o `yarn init -y`. Tal comando cria um **package.json** na aplicação, com as configurações iniciais: nome do projeto, versão, qual arquivo que vai ter como principal e qual o tipo de licença. Dentro do package.json, teremos essas informações e dependências que o projeto terá.
 
@@ -43,7 +43,7 @@ Rodando o servidor:
 yarn dev
 ```
 
-### **Parte 2: instalando o Prisma como dependência de desenvolvimento**
+## **Parte 2: instalando o Prisma como dependência de desenvolvimento**
 
 ```bash
 yarn add prisma -D
@@ -75,7 +75,7 @@ datasource db {
 
 O arquivo com extensão `dev.db` é o que abrigará todas as tabelas e dados dentro da mesma. Entretanto, apesar de estarmos usando o SQLite para o estudo, não é aconselhável utilizar o mesmo em produção.
 
-### **Parte 3: Configuração do GithubOAuth**
+## **Parte 3: Configuração do GithubOAuth**
 
 Link para configuração: [https://github.com/settings/developers](https://github.com/settings/developers)
 
@@ -90,7 +90,7 @@ GITHUB_CLIENT_SECRET=7b7ae0c97b91ec0600098bff714634244f6422a7
 GITHUB_CLIENT_ID=e144fdb9ec2f062609c4
 ```
 
-### **Parte 4: Criação de rota de login do Github**
+## **Parte 4: Criação de rota de login do Github**
 
 Criada para simular o que o Front e o Mobile farão.
 
@@ -116,7 +116,7 @@ No app.ts, importo a dependência para ter acesso às variáveis de ambiente:
 import "dotenv/config";
 ```
 
-### **Parte 5: Criação de rota de callback do Github**
+## **Parte 5: Criação de rota de callback do Github**
 
 No app.ts, defino a rota e faço a seguinte desestruturação do código do usuário para conseguirmos criar o access token (para isso, pegamos o code de dentro do request):
 
@@ -128,7 +128,7 @@ app.get("/signin/callback", (request, response) => {
 });
 ```
 
-### **Parte 6: Criação de autenticação do usuário recebendo o código que o Github forneceu**
+## **Parte 6: Criação de autenticação do usuário recebendo o código que o Github forneceu**
 
 Dentro de `src`, crio uma pasta chamada `services`, onde teremos todos os serviços/regra de negócio da aplicação.
 
@@ -158,7 +158,7 @@ class AuthenticateUserController {
 export { AuthenticateUserController };
 ```
 
-#### **Criando a regra de negócio da camada de serviço:**
+### **Criando a regra de negócio da camada de serviço:**
 
 No arquivo AuthenticateUserService.ts, os passos serão:
 
@@ -496,7 +496,7 @@ class AuthenticateUserController {
 }
 ```
 
-### **Parte 7: Cadastro das mensagens**
+## **Parte 7: Cadastro das mensagens**
 
 Na pasta `services`, adiciono o arquivo `CreateMessageService.ts`, com o código inicial:
 
@@ -702,7 +702,7 @@ Rodo o comando abaixo para trazer toda a estrutura que temos dentro do banco de 
 yarn prisma studio
 ```
 
-### **Parte 8: Configuração do websocket**
+## **Parte 8: Configuração do websocket**
 
 Como auxiliar na comunicação entre as aplicações (cliente/servidor), usamos o [https://socket.io/](https://socket.io/).
 
@@ -834,7 +834,7 @@ class CreateMessageService {
 export { CreateMessageService };
 ```
 
-### **Parte 9. Criação de rotas para listar as 3 primeiras mensagens e perfil do usuário**
+## **Parte 9. Criação de rotas para listar as 3 primeiras mensagens e perfil do usuário**
 
 Em services, crio o arquivo `GetLast3MessagesService.ts`:
 
