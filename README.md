@@ -26,14 +26,14 @@
 </p>
 
 <p align="center">
-<img alt="Made by Angélica Albuquerque" src="https://img.shields.io/badge/made%20by-Angélica Albuquerque-%20?color=6942c3">
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/angelicaalbuquerque/do-while_nlw-rocketseat?color=6942c3">
-<img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/angelicaalbuquerque/do-while_nlw-rocketseat?color=6942c3">
+<img alt="Made by Angélica Albuquerque" src="https://img.shields.io/badge/made%20by-Angélica Albuquerque-%20?color=ff396e">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/angelicaalbuquerque/do-while_nlw-rocketseat?color=ff396e">
+<img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/angelicaalbuquerque/do-while_nlw-rocketseat?color=ff396e">
 </p>
 
- <!-- <p align="center">
-  <a href="https://insomnia.rest/run/?label=NLW%202.0%20-%20Proffy&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fangelicaalbuquerque%2Fproffy_nlw02-rocketseat%2Fmaster%2Fserver%2FInsomnia_Proffy.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p> -->
+ <p align="center">
+  <a href="https://insomnia.rest/run/?label=NLW%20-%20DoWhile&uri=Insomnia_DoWhile.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
 ---
 
@@ -63,10 +63,10 @@ Um experiência online e totalmente gratuita para evoluir as habilidades em prog
 
 Nessa edição, feita entre os dias 18 e 24 de outubro de 2021, desenvolvemos uma aplicação (desktop e mobile) para o evento _[Do While 2021](https://dowhile.io/)_, abrangendo as etapas de Front-End, Back-End e Banco de Dados.
 
-### 📚 Grade do curso
+### 📚 Grade do curso & Anotações
 
 <details>
-  <summary>Stage 1</summary>
+  <summary>Stage 1 - Backend</summary>
 
 Nessa aula criaremos o backend da aplicação utlizando NodeJS. Nesse projeto iremos utilizar Typescript, que auxilia no aumento da produtividade em desenvolvimento; vamos utilizar o Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
 
@@ -81,7 +81,7 @@ Nessa aula criaremos o backend da aplicação utlizando NodeJS. Nesse projeto ir
   - Retornar 3 últimas mensagens
   - Criar profile do usuário
 
-O foco foi a criação do backend usando o NodeJS.
+O foco foi a criação do backend usando o NodeJS. As anotações de aula detalhadas estão disponíveis [aqui](https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat/blob/main/Notes-backend.md).
 
 </details>
 <!--
@@ -197,33 +197,28 @@ Você pode visualizar o layout do projetoatravés [deste link](https://www.figma
 
 ## 🧭 Como rodar o projeto
 
+O arquivo oficial, com o guia de configuração de ambiente para cada tecnologia, está [aqui](https://efficient-sloth-d85.notion.site/Impulse-240cb588fb8d4089917c7a6cef0008b3).
+
 ### Backend
 
-```Bash
-# Em breve
-```
-
-<!-- ```bash
+```bash
 # Clone este repositório
 $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 
 # Acesse o repositório
-$ cd nlw-do-while/server
+$ cd nlw-heat-do-while-2021/backend
 
 # Instale as dependências
 $ yarn install
 
-# Instale as Migrates
-$ yarn knex:migrate
-
-# Instale as Seeds iniciais do banco de dados
-$ yarn knex:seed
+# Execute as migrations
+$ yarn prisma migrate dev
 
 # Execute a aplicação em modo de desenvolvimento
-$ yarn start dev
+$ yarn dev
 
-# rodando na porta 3333
-``` -->
+# rodando na porta 4000
+```
 
 ### Front-end
 
@@ -236,7 +231,7 @@ $ yarn start dev
 $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 
 # Acesse este repositório
-$ cd nlw-do-while/web
+$ cd nlw-heat-do-while-2021/web
 
 # Instale as dependências
 $ yarn install
@@ -258,7 +253,7 @@ $ yarn start
 $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 
 # Acesse este repositório
-$ cd nlw-do-while/mobile
+$ cd nlw-heat-do-while-2021/mobile
 
 # Instale as dependências
 $ yarn install
@@ -282,21 +277,22 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Cors](https://www.npmjs.com/package/cors)
+- [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
+- [Express](https://expressjs.com/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Prisma](https://www.prisma.io/)
+- [Socket.IO](https://socket.io/)
+- [Insomnia](https://insomnia.rest/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [VS Code](https://code.visualstudio.com/)
-  <!-- - [TS-Node-Dev](https://www.npmjs.com/package/ts-node-dev) -->
-  <!-- [Express](https://expressjs.com/)  -->
-    <!-- - [Hapi/Joi](https://www.npmjs.com/package/@types/hapi__joi) -->
-    <!-- - [SQLite3](https://www.sqlite.org/index.html) -->
-    <!-- - [KnexJS](http://knexjs.org/) -->
   </details>
 
 <details>
   <summary>Frontend</summary>
 
-<!-- - [Axios](https://www.npmjs.com/package/axios) -->
-
+- [Axios](https://www.npmjs.com/package/axios)
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.netlify.com/#/)
@@ -311,8 +307,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 <details>
   <summary>Mobile</summary>
 
-<!-- - [Axios](https://www.npmjs.com/package/axios) -->
-
+- [Axios](https://www.npmjs.com/package/axios)
 - [Typescript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/learn)
 - [Expo Google Fonts](https://github.com/expo/google-fonts)
