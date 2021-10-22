@@ -13,7 +13,7 @@ export function LoginBox() {
     if (hasGithubCode) {
       const [urlWithoutCode, githubCode] = url.split("?code=");
 
-      console.log({ urlWithoutCode, githubCode });
+      window.history.pushState({}, "", urlWithoutCode);
     }
   }, []);
 
