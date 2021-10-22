@@ -68,7 +68,7 @@ Nessa edição, feita entre os dias 18 e 24 de outubro de 2021, desenvolvemos 
 <details>
   <summary>Stage 1 - Backend</summary>
 
-Nessa aula criaremos o backend da aplicação utlizando NodeJS. Nesse projeto iremos utilizar Typescript, que auxilia no aumento da produtividade em desenvolvimento; vamos utilizar o Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
+Nessa aula criamos o backend da aplicação utlizando NodeJS. Nesse projeto utilizamos Typescript, que auxilia no aumento da produtividade em desenvolvimento; utilizamos também Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
 
 - Conteúdo técnico - construção do projeto:
   - Criar projeto
@@ -84,33 +84,15 @@ Nessa aula criaremos o backend da aplicação utlizando NodeJS. Nesse projeto ir
 O foco foi a criação do backend usando o NodeJS. As anotações de aula detalhadas estão disponíveis [aqui](https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat/blob/main/Notes-backend.md).
 
 </details>
-<!--
+
 <details>
-  <summary>Stage 2</summary>
+  <summary>Stage 2 - Frontend</summary>
 
-Olhando as oportunidades: No segundo dia do NLW #2, você vai descobrir como acessar as melhores oportunidades no mercado, que na maioria das vezes não são divulgadas.
-
-- Ambiente de desenvolvimento;
-- Conceitos de back-end e Node.js;
-  - Como funciona o back-end?;
-  - Particularidades da API REST
-  - Por que Node.js?
-- Criando o projeto;
-- Explicando conceitos;
-  - Rotas e recursos;
-  - Parâmetros;
-- Identificando casos de uso;
-- Configurando conexão com o banco;
-- Criando tabelas no banco de dados;
-- Criação de aulas;
-- Listagem de aulas;
-- Criação e total de conexões;
-- Adição de cors.
-
-Aprendemos a utilizar queries complexas no banco de dados; trabalhamos com transactions, relacionamento entre tabelas, migrations, try/catch, TypeScript e descobrimos um novo jeito de trabalhar no banco com a parte de horários.
+Nessa aula criamos o front-end web da nossa aplicação utilizando ReactJS. Além disso, criamos nosso projeto utilizando o Vite, uma ferramenta extremamente performática, TypeScript e CSS modules. Construímos toda interface da aplicação do zero com Flexbox e Grid System, além de termos criado animações utilizando Framer Motion.
 
 </details>
 
+<!--
 <details>
   <summary>Stage 3</summary>
 
@@ -209,10 +191,7 @@ $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 $ cd nlw-heat-do-while-2021/backend
 
 # Instale as dependências
-$ yarn install
-
-# Execute as migrations
-$ yarn prisma migrate dev
+$ yarn
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
@@ -222,11 +201,7 @@ $ yarn dev
 
 ### Front-end
 
-```Bash
-# Em breve
-```
-
-<!-- ```bash
+```bash
 # Clone este repositório
 $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 
@@ -234,13 +209,13 @@ $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 $ cd nlw-heat-do-while-2021/web
 
 # Instale as dependências
-$ yarn install
+$ yarn
 
 # Execute a aplicação
-$ yarn start
+$ yarn dev
 
 # rodando na porta 3000
-``` -->
+```
 
 ### Mobile
 
