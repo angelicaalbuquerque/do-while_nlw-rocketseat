@@ -152,21 +152,28 @@ A Milha Extra: Na quinta e última aula do NLW #2, vamos mostrar como você pode
 ## 💻 Projeto
 
 <div align="center">
-    <img src=".github\[NLW Heat - Impulse DoWhile2021.png" width="100%"/>
+    <img src=".github\[NLW Heat - Impulse DoWhile2021.png" width="70%"/>
 </div>
 
 Como forma de aquecimento para o evento _[Do While 2021](https://dowhile.io/)_, produzido pela própria Rocketseat para oferecer palestras, painéis, talks, keynotes e workshops para a comunidade de tecnologia, este projeto é um mural de depoimentos/expectativas sobre o evento e utilizado, de fato, no mesmo.
 
 Consiste-se em uma aplicação utilizando várias tecnologias, onde o login é feito com Github para que o usuário consiga deixar suas mensagens. Conforme as mensagens são adicionadas, em tempo real elas aparecem no mural.
 
-Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem já desenvolveu aplicações para web. Essa trilha foi guiada pela instrutora Daniele Leão.
+Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem já desenvolveu aplicações para web.
 
-<!-- ### Web
+### Web
 
 <p align="center">
-  <!-- <img alt="Do While" src=".github\dowhile-mobile.gif" width="80%">
+ <img alt="Do While" src=".github\dowhile-web-application.gif" width="70%">
 </p>
 
+Aplicação _realtime_, com socketIO:
+
+<p align="center">
+ <img alt="Do While" src=".github\realtime-application.gif" width="70%">
+</p>
+
+<!--
 ### Mobile
 
 <p align="center">
@@ -192,6 +199,9 @@ $ cd nlw-heat-do-while-2021/backend
 
 # Instale as dependências
 $ yarn
+
+# Execute as migrations do Prisma para criação das tabelas no banco
+$ yarn prisma migrate dev
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
@@ -269,10 +279,13 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Axios](https://www.npmjs.com/package/axios)
 - [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
 - [React](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.netlify.com/#/)
 - [React Router](https://www.npmjs.com/package/react-router-dom)
-- [Expo](https://expo.io/)
+- [SASS](https://sass-lang.com/)
+- [Prisma](https://www.prisma.io/)
+- [Socket.IO](https://socket.io/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [VS Code](https://code.visualstudio.com/)
