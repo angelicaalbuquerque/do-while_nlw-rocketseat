@@ -9,10 +9,16 @@
 <p align="center">
 <img alt="badge html" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f96545c39b9ff34534ee166d78e4bcef00de3928/badges/html.svg">
 <img alt="badge css" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f96545c39b9ff34534ee166d78e4bcef00de3928/badges/css.svg">
+<img alt="badge sass" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/492c87722a25eca3883de8ee892966c9dd1e86e3/badges/sass.svg">
 <img alt="badge typescript" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/typescript.svg">
 <img alt="badge nodejs" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/node.svg">
+<img alt="badge prisma" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/c9e524d15d9b06b9a9bf5b9f3460618df3007b62/badges/prisma.svg">
+<img alt="badge socketIO" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/492c87722a25eca3883de8ee892966c9dd1e86e3/badges/socketio.svg">
 <img alt="badge react" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/badge-react.svg">
 <img alt="badge react native" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/react-native.svg">
+
+<img alt="badge axios" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/492c87722a25eca3883de8ee892966c9dd1e86e3/badges/axios.svg">
+
 <img alt="badge expo" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/expo.svg">
 <img alt="badge eslint" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/eslint.svg">
 <img alt="badge yarn" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/yarn.svg">
