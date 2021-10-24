@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Alert, Keyboard, TextInput, View } from "react-native";
-// import { api } from '../../services/api';
+import { api } from "../../services/api";
 import { COLORS } from "../../theme";
 import { Button } from "../Button";
 
@@ -15,7 +15,7 @@ export function SendMessageForm() {
 
     if (messageFormatted.length > 0) {
       setSendingMessage(true);
-      // await api.post('/messages', { message: messageFormatted });
+      await api.post("/messages", { message: messageFormatted });
 
       setMessage("");
       Keyboard.dismiss();
