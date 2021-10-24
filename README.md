@@ -22,10 +22,10 @@
 <img alt="badge expo" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/expo.svg">
 <img alt="badge eslint" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/eslint.svg">
 <img alt="badge yarn" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/yarn.svg">
-<img alt="badge Elixir" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/elixir.svg">
-<img alt="badge Erlang" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/erlang.svg">
-<img alt="badge Phoenix" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/phoenix.svg">
-<img alt="badge PostgreSQL" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/postgreSQL.svg">
+<!-- <img alt="badge Elixir" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/elixir.svg"> -->
+<!-- <img alt="badge Erlang" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/erlang.svg"> -->
+<!-- <img alt="badge Phoenix" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/phoenix.svg"> -->
+<!-- <img alt="badge PostgreSQL" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/bf23a97385cbc48685f4cee3afcb2ede324e1452/badges/postgreSQL.svg"> -->
 <img alt="badge prettier" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/prettier-2.svg">
 <img alt="badge figma" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/56834a01279853fcf3ce5c7bf058f217fb2be110/badges/figma.svg">
 <img alt="badge vscode" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f96545c39b9ff34534ee166d78e4bcef00de3928/badges/visual-studio-code.svg">
@@ -98,59 +98,21 @@ Nessa aula criamos o front-end web da nossa aplicação utilizando ReactJS. Alé
 
 </details>
 
+<details>
+  <summary>Stage 3 - Mobile</summary>
+
+Nessa aula criamos o front-end mobile da nossa aplicação utilizando React Native. Além disso, criamos nosso projeto utilizando TypeScript e Expo, que proporciona muita produtividade no desenvolvimento. Construímos toda interface da aplicação do zero, além de termos criado animações utilizando o Moti, AsyncStorage e integração em tempo real com socket.io.
+
+</details>
+
 <!--
 <details>
-  <summary>Stage 3</summary>
+  <summary>Stage 4 - Microserviço</summary>
 
-A Escolha da Stack: Qual a melhor tecnologia? É sobre isso que vamos falar no terceiro dia do NLW #2. Vamos apresentar os critérios de avaliação para decidir quais tecnologias fazem sentido para você, dado o seu momento atual, o seu contexto e os seus objetivos. Além disso, você entender por qual razão utilizamos a nossa stack e como ela pode multiplicar as oportunidades de uma forma enxuta sem perder o foco.
-
-- Estruturando a página de cadastro;
-- Estilizando a página de cadastro;
-- Preparando o cadastro de horários;
-- Conceitos de estado e imutabilidade;
-- Carregando o total de conexões na Landing;
-- Cadastro de novas aulas;
-- Listagem de professores.
+Nessa aula criaremos um microserviço em Elixir responsável por gerar a nuvem de tags das mensagens enviadas na aplicação desenvolvida nos dias anteriores. Usaremos conceitos de concorrência e paralelismo para a contagem de tags, e um processo que executa todos os dias para a geração dessa nuvem de tags. Com isso, utilizaremos o Phoenix, Ecto, o módulo Task a lib Quantum e diversos conceitos do Elixir.
 
 </details>
 
-<details>
-  <summary>Stage 4</summary>
-
-Até 2 Anos em 2 Meses: O que você acha de evoluir em 2 meses o que muitos devs levam 2 anos? No quarto dia do NLW #2, vamos entender o problema que desacelera a evolução de muitos devs e as principais dificuldades que atrapalham a evolução. Você vai ver como evitar esses problemas e acelerar na direção certa.
-
-- Criando o projeto com Expo;
-- Executando a aplicação;
-- Particularidades do React Native;
-- Elementos
-- Estilização
-- Estruturando a Landing Page;
-- Estilizando a Landing Page;
-- Navegação da Landing Page;
-- Página de "Dar Aulas";
-- Páginas internas;
-- Navegação em abas;
-- Componente PageHeader;
-- Lista de professores.
-
-</details>
-
-<details>
-  <summary>Stage 5</summary>
-
-A Milha Extra: Na quinta e última aula do NLW #2, vamos mostrar como você pode ir além e se destacar, andando aquela milha extra. Vamos dar alguns sugestões práticas de como você pode fazer isso e aumentar incrivelmente os seus resultados.
-
-- Lista de professores;
-- Lista de favoritos;
-- Filtro de professores;
-- Conectando com a API;
-  - Total de conexões
-  - Lista de professores
-- Contato via WhatsApp;
-- Adicionando e removendo favoritos;
-- Listando favoritos.
-
-</details>
   -->
 
 </p>
@@ -170,21 +132,20 @@ Este projeto foi desenvolvido durante a **Trilha Impulse**, desenhada para quem 
 ### Web
 
 <p align="center">
- <img alt="Do While" src=".github\dowhile-web-application.gif" width="70%">
+ <img alt="Do While" src=".github\dowhile-web-application.gif" width="80%">
 </p>
 
 Aplicação _realtime_, com socketIO:
 
 <p align="center">
- <img alt="Do While" src=".github\realtime-application.gif" width="70%">
+ <img alt="Do While" src=".github\realtime-application.gif" width="80%">
 </p>
 
-<!--
 ### Mobile
 
 <p align="center">
-  <img alt="Do While" src=".github\dowhile-mobile.gif" width="40%">
-</p> -->
+  <img alt="Do While" src=".github\dowhile-mobile.gif" width="30%">
+</p>
 
 ## 🔖 Layout
 
@@ -236,10 +197,6 @@ $ yarn dev
 ### Mobile
 
 ```Bash
-# Em breve
-```
-
-<!-- ```Bash
 # Clone este repositório
 $ git clone https://github.com/angelicaalbuquerque/do-while_nlw-rocketseat
 
@@ -255,8 +212,8 @@ $ expo start
 # O Expo abrirá uma nova janela no navegador; escaneie o qrcode no terminal ou na página aberta pelo Expo
 
 # Caso tenha problema com as fontes, execute:
-$ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
-``` -->
+# $ expo install expo-font @expo-google-fonts/roboto
+```
 
 ## 🚀 Tecnologias
 
@@ -307,8 +264,11 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo Google Fonts](https://github.com/expo/google-fonts)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
-  <!-- - [React Navigation](https://reactnavigation.org/) -->
-  <!-- - [React Native Appearance](https://github.com/expo/react-native-appearance) -->
+- [React Native Iphone X Helper](https://yarnpkg.com/package/react-native-iphone-x-helper)
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- [Svg Transformer](https://github.com/kristerkari/react-native-svg-transformer)
+- [Moti](https://moti.fyi/)
+- [Socket.IO](https://socket.io/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [VS Code](https://code.visualstudio.com/)
