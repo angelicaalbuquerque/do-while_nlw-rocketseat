@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { ScrollView } from "react-native";
 import { io } from "socket.io-client";
-// import { MESSAGES_EXAMPLE } from '../../utils/messages';
+import { MESSAGES_EXAMPLE } from "../../utils/messages";
 
 import { styles } from "./styles";
 
 import { Message, MessageProps } from "../Message";
 import { api } from "../../services/api";
 
-let messagesQueue: MessageProps[] = [];
+let messagesQueue: MessageProps[] = MESSAGES_EXAMPLE;
 
 const socket = io(String(api.defaults.baseURL));
 socket.on("new_message", (newMessage) => {
