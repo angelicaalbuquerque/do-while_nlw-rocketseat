@@ -6,8 +6,10 @@ import { styles } from "./styles";
 import { UserPhoto } from "../UserPhoto";
 
 import LogoSvg from "../../assets/logo.svg";
+import { useAuth } from "../../hooks/auth";
 
 export function Header() {
+  const { user, signOut } = useAuth();
   return (
     <View style={styles.container}>
       <LogoSvg />
@@ -17,7 +19,7 @@ export function Header() {
           <Text style={styles.logoutText}>Sair</Text>
         </TouchableOpacity>
 
-        <UserPhoto imageUri="https://github.com/angelicaalbuquerque.png" />
+        <UserPhoto imageUri={user?.avatar_url} />
       </View>
     </View>
   );
